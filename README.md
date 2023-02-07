@@ -14,8 +14,8 @@ Voici un exemple du site terminé qui affiche une erreur quand le formulaire est
 
 # Instructions
 1. Faire les corrections/ajouts/modifications nécessaires pour que :
-    - Les données du formulaire soient envoyées à la page merci.html.
-    - Les données du formulaire ne soient pas envoyées dans l'URL.
+    - Les données du formulaire soient envoyées à la page merci.html.*****fait*****
+    - Les données du formulaire ne soient pas envoyées dans l'URL.*****fait*****
     - Quand on change la valeur d'un champ, on doit mettre à jour le sous-total pour ce type de sacs (évènement `onchange`).
 
 2. Corriger les fautes dans le code fourni :
