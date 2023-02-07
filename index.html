@@ -22,9 +22,9 @@
         <tbody>
           <tr id="Peches">
             <td>Sac(s) de pêches</td>
-            <td id="prixPeches" class="prix">10</td>
+            <td id="prixPeches" class="prix" >10</td>
             <td>
-              <input id="nbPeches" type="number"  max="24" min="0">
+              <input id="nbPeches" type="number"  max="24" min="0"  onchange="NombrePeches()">
             </td>
             <td class="totalFruit">0</td>
           </tr>
@@ -32,7 +32,7 @@
             <td>Sac(s) de poires</td>
             <td id="prixPoires" class="prix">12</td>
             <td><input id="nbPoires" type="number" onchange="NombrePoires()" max="24" min="0"></td>
-            <td class="totalFruit">0</td>
+            <td class="totalFruit" id="soustotalpeche">0</td>
           </tr>
           <tr id="Pommes">
             <td>Sac(s) de pommes</td>
